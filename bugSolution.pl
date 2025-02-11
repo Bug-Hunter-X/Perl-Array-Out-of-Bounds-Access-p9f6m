@@ -1,0 +1,1 @@
+my @array = (1, 2, 3);my $element;if ($#array >= 2){    $element = $array[2];}else{    $element = undef; # Handle the case where the index is out of bounds}print "Element at index 2: ", $element if defined $element; # Check if element is defined before printing
